@@ -37,43 +37,53 @@ span{
   .casilla1 {
     grid-area: area1;
     background-color: #FF6711;
+    cursor: pointer;
   }
   .casilla2 {
     grid-area: area2;
     background-color: #2522BF;
+    cursor: pointer;
       }
   .casilla3 {
     grid-area: area3;
     background-color: #ED84D6;
+    cursor: pointer;
   }
   .casilla4 {
     grid-area: area4;
     background-color: #49C81C;
+    cursor: pointer;
   }
   .casilla5 {
     grid-area: area5;
     background-color:#F8D310;
+    cursor: pointer;
   }
   .casilla6 {
     grid-area: area6;
     background-color: #9B0BA8;
+    cursor: pointer;
   }
   .casilla7 {
     grid-area: area7;
     background-color:#FF0A0A;
+    cursor: pointer;
   }
   .casilla8 {
     grid-area: area8;
     background-color: #BC851A;
+    cursor: pointer;
   }
   .casilla9 {
     grid-area: area9;
     background-color: #12BCF8;
+    cursor: pointer;
   }
   .casilla10 {
     grid-area: area10;
     background-color: #F80B99;
-    border-radius: 0 10rem 10rem 0;
+        border-radius: 0 10rem 10rem 0;
+        cursor: pointer;
   }
   body{
     background-image: url(./img/asfalto.jpg);
