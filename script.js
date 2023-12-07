@@ -59,3 +59,102 @@ casilla10.onclick = function (){
     flauta.play();
 }
 
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'Enter') {
+
+        flauta.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'a') {
+
+        acordeon.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'b') {
+
+        arpa.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'c') {
+
+        bateria.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'd') {
+
+        gaita.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'e') {
+
+        guitarra.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'f') {
+
+        pandereta.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'g') {
+
+        piano.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'h') {
+
+        timbales.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'i') {
+
+        triangulo.play();
+
+    }
+
+});
+document.addEventListener('keydown', function(event) {
+
+    if (event.key === 'j') {
+
+        trompeta.play();
+
+    }
+
+});
