@@ -1,9 +1,9 @@
 h1{
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Cabin sketch';
     color: #fc0782;
     text-align: center;
-    }
+        }
 @font-face {
 
     font-family: 'Cabin sketch';
@@ -12,7 +12,7 @@ h1{
     
   }
   main {
-    margin-top: 10vh;
+    margin-top: 50vh;
     display: grid;
     grid-template-rows: repeat(4, 100px);
     grid-template-columns: (7, 1fr);
@@ -20,7 +20,7 @@ h1{
     "area0 area2 area02 area5 area03 area8 area10"
     "area1 area2 area4 area5 area7 area8 area10"
     "area1 area3 area4 area6 area7 area9 area10"
-    "area04 area3marea05 area6 area06 area9 area10"
+    "area04 area3 area05 area6 area06 area9 area10"
   }
   .casilla0 { grid-area: area0; } 
   .casilla02 {grid-area: area02; }
@@ -28,51 +28,62 @@ h1{
   .casilla04 {grid-area: area04; }
   .casilla05 {grid-area: area05; }
   .casilla06 {grid-area: area06; }
-
-  .casilla {
+span{
+  transform: rotate(90deg);
+  display: block;
+  font-size: 60px;
+  font-family: Cabin sketch;
+}
+  .casilla1 {
     grid-area: area1;
-    background-color: aqua;
+    background-color: #FF6711;
   }
   .casilla2 {
     grid-area: area2;
-    background-color: red;
-  }
+    background-color: #2522BF;
+      }
   .casilla3 {
     grid-area: area3;
-    background-color: yellow;
+    background-color: #ED84D6;
   }
   .casilla4 {
     grid-area: area4;
-    background-color: green;
+    background-color: #49C81C;
   }
   .casilla5 {
     grid-area: area5;
-    background-color:violet;
+    background-color:#F8D310;
   }
   .casilla6 {
     grid-area: area6;
-    background-color: blue;
+    background-color: #9B0BA8;
   }
   .casilla7 {
     grid-area: area7;
-    background-color:brown;
+    background-color:#FF0A0A;
   }
   .casilla8 {
     grid-area: area8;
-    background-color:pink;
+    background-color: #BC851A;
   }
   .casilla9 {
     grid-area: area9;
-    background-color: orange;
+    background-color: #12BCF8;
   }
   .casilla10 {
     grid-area: area10;
-    background-color: grey;
+    background-color: #F80B99;
+    border-radius: 0 10rem 10rem 0;
   }
   body{
     background-image: url(./img/asfalto.jpg);
  }
-
+img{
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
  
  
  
