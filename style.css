@@ -82,8 +82,8 @@ span{
 img{
   width: 200px;
   right: 0;
-  position: absolute;
-  bottom: 0.1cm;
+  position: fixed;
+  bottom: 0;
 }
 p{
   font-size: 50px;
