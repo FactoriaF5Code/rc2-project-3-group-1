@@ -27,10 +27,10 @@ function manejarClick(casilla, parrafo, opcion1, opcion2, audio1, audio2) {
   }
   
   const casilla1 = document.querySelector(".casilla1");
-  const p1 = document.querySelector("p");
-  const opcion1 = document.querySelector(".opciones");
-  const opcion2 = document.querySelector(".opcion2");
-  const guitar = document.getElementById("guitar");
-  const tambor = document.getElementById("tambor");
+  const numero1 = document.querySelector(".numero1")
+  const optionAcordeon= document.querySelector(".acordeon");
+  const optionAcordeon2 = document.querySelector(".acordeon2");
+  const audioAcordeon = document.getElementById("ACORDEON");
+  const audioAcordeon2 = document.getElementById("ACORDEON2");
   
-  manejarClick(casilla1, p1, opcion1, opcion2, guitar, tambor);
+  manejarClick(casilla1, numero1, optionAcordeon, optionAcordeon2, audioAcordeon, audioAcordeon2);

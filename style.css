@@ -1,103 +1,116 @@
-h1{
-    font-size: 100px;
-    font-family: 'Cabin sketch';
-    color: #fc0782;
-    text-align: center;
-        }
+h1 {
+  font-size: 100px;
+  font-family: "Cabin sketch";
+  color: #fc0782;
+  text-align: center;
+}
 @font-face {
+  font-family: "Cabin sketch";
 
-    font-family: 'Cabin sketch';
-  
-    src: url('./fonts/CabinSketch-Regular.ttf') format('truetype');
-    
-  }
-  main {
-    margin-top: 10vh;
-    display: grid;
-    grid-template-rows: repeat(4, 100px);
-    grid-template-columns: (7, 1fr);
-    grid-template-areas:
+  src: url("./fonts/CabinSketch-Regular.ttf") format("truetype");
+}
+main {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: (7, 1fr);
+  grid-template-areas:
     "area0 area2 area02 area5 area03 area8 area10"
     "area1 area2 area4 area5 area7 area8 area10"
     "area1 area3 area4 area6 area7 area9 area10"
-    "area04 area3 area05 area6 area06 area9 area10"
-  }
-  .casilla0 { grid-area: area0; } 
-  .casilla02 {grid-area: area02; }
-  .casilla03 {grid-area: area03; }
-  .casilla04 {grid-area: area04; }
-  .casilla05 {grid-area: area05; }
-  .casilla06 {grid-area: area06; }
-span{
+    "area04 area3 area05 area6 area06 area9 area10";
+}
+.casilla0 {
+  grid-area: area0;
+}
+.casilla02 {
+  grid-area: area02;
+}
+.casilla03 {
+  grid-area: area03;
+}
+.casilla04 {
+  grid-area: area04;
+}
+.casilla05 {
+  grid-area: area05;
+}
+.casilla06 {
+  grid-area: area06;
+}
+span {
   transform: rotate(90deg);
   display: block;
   font-size: 60px;
   font-family: Cabin sketch;
 }
-  .casilla1 {
-    grid-area: area1;
-    background-color: #FF6711;
-    cursor: pointer;
-  }
-  .casilla2 {
-    grid-area: area2;
-    background-color: #2522BF;
-    cursor: pointer;
-      }
-  .casilla3 {
-    grid-area: area3;
-    background-color: #ED84D6;
-    cursor: pointer;
-  }
-  .casilla4 {
-    grid-area: area4;
-    background-color: #49C81C;
-    cursor: pointer;
-  }
-  .casilla5 {
-    grid-area: area5;
-    background-color:#F8D310;
-    cursor: pointer;
-  }
-  .casilla6 {
-    grid-area: area6;
-    background-color: #9B0BA8;
-    cursor: pointer;
-  }
-  .casilla7 {
-    grid-area: area7;
-    background-color:#FF0A0A;
-    cursor: pointer;
-  }
-  .casilla8 {
-    grid-area: area8;
-    background-color: #BC851A;
-    cursor: pointer;
-  }
-  .casilla9 {
-    grid-area: area9;
-    background-color: #12BCF8;
-    cursor: pointer;
-  }
-  .casilla10 {
-    grid-area: area10;
-    background-color: #F80B99;
-        border-radius: 0 10rem 10rem 0;
-        cursor: pointer;
-  }
-  body{
-    background-image: url(./img/asfalto.jpg);
-    position: relative;
-    }
-img{
+.casilla1 {
+  grid-area: area1;
+  background-color: #ff6711;
+  cursor: pointer;
+}
+.casilla2 {
+  grid-area: area2;
+  background-color: #2522bf;
+  cursor: pointer;
+}
+.casilla3 {
+  grid-area: area3;
+  background-color: #ed84d6;
+  cursor: pointer;
+}
+.casilla4 {
+  grid-area: area4;
+  background-color: #49c81c;
+  cursor: pointer;
+}
+.casilla5 {
+  grid-area: area5;
+  background-color: #f8d310;
+  cursor: pointer;
+}
+.casilla6 {
+  grid-area: area6;
+  background-color: #9b0ba8;
+  cursor: pointer;
+}
+.casilla7 {
+  grid-area: area7;
+  background-color: #ff0a0a;
+  cursor: pointer;
+}
+.casilla8 {
+  grid-area: area8;
+  background-color: #bc851a;
+  cursor: pointer;
+}
+.casilla9 {
+  grid-area: area9;
+  background-color: #12bcf8;
+  cursor: pointer;
+}
+.casilla10 {
+  grid-area: area10;
+  background-color: #f80b99;
+  border-radius: 0 10rem 10rem 0;
+  cursor: pointer;
+}
+body {
+  background-image: url(./img/asfalto.jpg);
+  position: relative;
+}
+img {
   width: 200px;
   right: 0;
   position: fixed;
   bottom: 0;
 }
-p{
+p {
   font-size: 50px;
   font-family: Cabin sketch;
   text-align: center;
 }
 
+option {
+  display: none;
+}
