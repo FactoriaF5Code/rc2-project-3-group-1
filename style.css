@@ -6,7 +6,6 @@ h1 {
 }
 @font-face {
   font-family: "Cabin sketch";
-
   src: url("./fonts/CabinSketch-Regular.ttf") format("truetype");
 }
 main {
@@ -110,7 +109,6 @@ p {
   font-family: Cabin sketch;
   text-align: center;
 }
-
 option {
   display: none;
   font-family: Cabin Sketch;
