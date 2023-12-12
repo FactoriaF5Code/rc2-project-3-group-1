@@ -99,10 +99,10 @@ const casilla5 = document.querySelector(".casilla5");
   const audioTrompeta2 = document.getElementById("TROMPETA2");
   manejarClick(casilla9, numero9, optiontrompeta, optionTrompeta2, audioTrompeta, audioTrompeta2); 
 
-  const casilla10 = document.querySelector(".casilla10");
+  const casilla010 = document.querySelector(".casilla010");
   const numero10 = document.querySelector(".numero10")
   const optionFlauta= document.querySelector(".flauta");
   const optionFlauta2 = document.querySelector(".flauta2");
   const audioFlautaTravesera = document.getElementById("FLAUTA TRAVESERA");
   const audioFlauta2 = document.getElementById("FLAUTA2");
-  manejarClick(casilla10, numero10, optionFlautaTravesera, optionFlauta2, audioFlautaTravesera, audioFlauta2);
+  manejarClick(casilla10, numero10, optionFlauta, optionFlauta2, audioFlautaTravesera, audioFlauta2);
