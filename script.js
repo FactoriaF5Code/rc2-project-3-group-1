@@ -299,3 +299,7 @@ document.addEventListener("keydown", function (event) {
     audioFlautaTravesera.pause();
   }, 3000);
 });
+
+casilla5.addEventListener("click", () => {
+  casilla5.classList.toggle("pandereta");
+});
