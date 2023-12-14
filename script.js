@@ -251,7 +251,7 @@ document.addEventListener("keydown", function (event) {
     audioPandereta.play();
   }
   setTimeout(function () {
-    udioPandereta.pause();
+    audioPandereta.pause();
   }, 3000);
 });
 
@@ -260,7 +260,7 @@ document.addEventListener("keydown", function (event) {
     audioPiano.play();
   }
   setTimeout(function () {
-    udioPiano.pause();
+    audioPiano.pause();
   }, 3000);
 });
 
