@@ -2,5 +2,6 @@
 
 # Rural Camp 2
 
-El equipo esta formado por Noelia, Ana Mari, Yamila y Eva.
-Nuestro proyecto es una página educativa, apoyada en el juego de La Rayuela, donde se escuchan sonidos de diferentes familias y se puede interactuar tambien a través del teclado.
+Nuestro equipo lo formamos Noelia, Ana Mari, Yamila y Eva.
+El proyecto desarrollado es una página educativa, apoyada en el juego de La Rayuela.
+Con nuestra página los usuarios pueden interactuar con las diferentes casillas a través del teclado o el ratón. Esto permite escuchar dos versiones distintas del sonido de cada instrumento y ver información sobre la historia de cada uno.
