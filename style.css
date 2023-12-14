@@ -117,29 +117,29 @@ option {
   font-family: Cabin Sketch;
   font-size: 25px;
 }
-@media (max-width: 768px){
-  h1{
-font-size: 70px;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px;
   }
 
-main{
-  grid-template-rows: repeat(7, 120px);
-  grid-template-columns: repeat(4,150px);
-  grid-template-areas:
-  "area10 area10 area10 area10"
-  "area8 area8 area9 area9"
-  "area03 area7 area7 area06"
-  "area5 area5 area6 area6"
-  "area02 area4 area4 area05"
-  "area2 area2 area3 area3"
-  "area0 area1 area1 area04 ";
-  margin-left: 75px;
-  margin-top: 5vh;
-}
-.casilla10 {
-border-radius: 10rem 10rem 0 0;
-} 
-span {
-  transform: rotate(0deg);
+  main {
+    grid-template-rows: repeat(7, 120px);
+    grid-template-columns: repeat(4, 150px);
+    grid-template-areas:
+      "area10 area10 area10 area10"
+      "area8 area8 area9 area9"
+      "area03 area7 area7 area06"
+      "area5 area5 area6 area6"
+      "area02 area4 area4 area05"
+      "area2 area2 area3 area3"
+      "area0 area1 area1 area04 ";
+    margin-left: 75px;
+    margin-top: 5vh;
   }
- }
+  .casilla10 {
+    border-radius: 10rem 10rem 0 0;
+  }
+  span {
+    transform: rotate(0deg);
+  }
+}
