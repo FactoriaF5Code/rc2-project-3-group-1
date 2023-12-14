@@ -4,5 +4,4 @@
 
 Nuestro equipo lo formamos Noelia, Ana Mari, Yamila y Eva.
 El proyecto desarrollado es una página educativa, apoyada en el juego de La Rayuela.
-Se pude realizar lo siguiente:
-- Escuchar audios de diferentes instrumentos musicales, interactuando a través del teclado y el ratón. 
+Con nuestra página los usuarios pueden interactuar con las diferentes casillas a través del teclado o el ratón. Esto permite escuchar dos versiones distintas del sonido de cada instrumento y ver información sobre la historia de cada uno.
