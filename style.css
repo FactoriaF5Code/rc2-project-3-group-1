@@ -50,60 +50,124 @@ span {
   grid-area: area1;
   background-color: rgba(255, 103, 17, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla1.acordeon {
+  background-image: url(./instrumentosImg/ACORDEON.jpg);
+  background-size: cover;
 }
 .casilla2 {
   grid-area: area2;
   background-color: rgba(37, 34, 191, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla2.arpa {
+  background-image: url(./instrumentosImg/Arpa\ .jpg);
+  background-size: cover;
 }
 .casilla3 {
   grid-area: area3;
   background-color: rgba(237, 132, 214, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla3.bateria {
+  background-image: url(./instrumentosImg/batería-estandard.png);
+  background-size: cover;
 }
 .casilla4 {
   grid-area: area4;
   background-color: rgba(73, 200, 28, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla4.gaita {
+  background-image: url(./instrumentosImg/gaita.jpeg);
+  background-size: cover;
 }
 .casilla5 {
   grid-area: area5;
   background-color: rgba(248, 211, 16, 0.6);
   cursor: pointer;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .casilla5.pandereta {
-  /* background-image: url("https://es.wikipedia.org/wiki/Pandereta#/media/Archivo:Pandeiro3.JPG"); */
   background-image: url(./instrumentosImg/pandereta_sencilla.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .casilla6 {
   grid-area: area6;
   background-color: rgba(155, 11, 168, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla6.piano {
+  background-image: url(./instrumentosImg/piano-de-cola-.jpg);
+  background-size: cover;
 }
 .casilla7 {
   grid-area: area7;
   background-color: rgba(255, 10, 10, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla7.timbales {
+  background-image: url(./instrumentosImg/timbales.jpg);
+  background-size: cover;
 }
 .casilla8 {
   grid-area: area8;
   background-color: rgba(188, 133, 26, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla8.triangulo {
+  background-image: url(./instrumentosImg/triangulo.jpg);
+  background-size: cover;
 }
 .casilla9 {
   grid-area: area9;
   background-color: rgba(18, 220, 248, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla9.trompeta {
+  background-image: url(./instrumentosImg/trompeta.jpg);
+  background-size: cover;
 }
 .casilla10 {
   grid-area: area10;
   background-color: rgba(248, 11, 153, 0.6);
   border-radius: 0 10rem 10rem 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casilla10.flauta {
+  background-image: url(./instrumentosImg/flauta-travesera.jpg);
+  background-size: cover;
 }
 body {
   background-image: url(./img/asfalto.jpg);

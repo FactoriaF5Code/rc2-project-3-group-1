@@ -57,6 +57,10 @@ manejarClick(
   audioAcordeon2
 );
 
+casilla1.addEventListener("click", () => {
+  casilla1.classList.toggle("acordeon");
+});
+
 const casilla2 = document.querySelector(".casilla2");
 const numero2 = document.querySelector(".numero2");
 const optionArpa = document.querySelector(".arpa");
@@ -73,6 +77,10 @@ manejarClick(
   audioArpa,
   audioArpa2
 );
+
+casilla2.addEventListener("click", () => {
+  casilla2.classList.toggle("arpa");
+});
 
 const casilla3 = document.querySelector(".casilla3");
 const numero3 = document.querySelector(".numero3");
@@ -91,6 +99,10 @@ manejarClick(
   audioBateria2
 );
 
+casilla3.addEventListener("click", () => {
+  casilla3.classList.toggle("bateria");
+});
+
 const casilla4 = document.querySelector(".casilla4");
 const numero4 = document.querySelector(".numero4");
 const optionGaita = document.querySelector(".gaita");
@@ -107,6 +119,10 @@ manejarClick(
   audioGaita,
   audioGaita2
 );
+
+casilla4.addEventListener("click", () => {
+  casilla4.classList.toggle("gaita");
+});
 
 const casilla5 = document.querySelector(".casilla5");
 const numero5 = document.querySelector(".numero5");
@@ -125,6 +141,10 @@ manejarClick(
   audioPandereta2
 );
 
+casilla5.addEventListener("click", () => {
+  casilla5.classList.toggle("pandereta");
+});
+
 const casilla6 = document.querySelector(".casilla6");
 const numero6 = document.querySelector(".numero6");
 const optionPiano = document.querySelector(".piano");
@@ -141,6 +161,10 @@ manejarClick(
   audioPiano,
   audioPiano2
 );
+
+casilla6.addEventListener("click", () => {
+  casilla6.classList.toggle("piano");
+});
 
 const casilla7 = document.querySelector(".casilla7");
 const numero7 = document.querySelector(".numero7");
@@ -159,6 +183,10 @@ manejarClick(
   audioTimbales2
 );
 
+casilla7.addEventListener("click", () => {
+  casilla7.classList.toggle("timbales");
+});
+
 const casilla8 = document.querySelector(".casilla8");
 const numero8 = document.querySelector(".numero8");
 const optionTriangulo = document.querySelector(".triangulo");
@@ -175,6 +203,10 @@ manejarClick(
   audioTriangulo,
   audioTriangulo2
 );
+
+casilla8.addEventListener("click", () => {
+  casilla8.classList.toggle("triangulo");
+});
 
 const casilla9 = document.querySelector(".casilla9");
 const numero9 = document.querySelector(".numero9");
@@ -193,6 +225,10 @@ manejarClick(
   audioTrompeta2
 );
 
+casilla9.addEventListener("click", () => {
+  casilla9.classList.toggle("trompeta");
+});
+
 const casilla10 = document.querySelector(".casilla10");
 const numero10 = document.querySelector(".numero10");
 const optionFlauta = document.querySelector(".flauta");
@@ -209,6 +245,10 @@ manejarClick(
   audioFlautaTravesera,
   audioFlauta2
 );
+
+casilla10.addEventListener("click", () => {
+  casilla10.classList.toggle("flauta");
+});
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -298,8 +338,4 @@ document.addEventListener("keydown", function (event) {
   setTimeout(function () {
     audioFlautaTravesera.pause();
   }, 3000);
-});
-
-casilla5.addEventListener("click", () => {
-  casilla5.classList.toggle("pandereta");
 });
