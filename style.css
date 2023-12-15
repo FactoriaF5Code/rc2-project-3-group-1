@@ -1,16 +1,20 @@
+@font-face {
+  font-family: "Cabin sketch";
+  src: url("./fonts/CabinSketch-Regular.ttf") format("truetype");
+}
+
+body {
+  background-image: url(./img/asfalto.jpg);
+  position: relative;
+}
+
 h1 {
   font-size: 100px;
   font-family: "Cabin sketch";
   color: #f8027dab;
   text-align: center;
 }
-a {
-  color: black;
-}
-@font-face {
-  font-family: "Cabin sketch";
-  src: url("./fonts/CabinSketch-Regular.ttf") format("truetype");
-}
+
 main {
   margin-top: 10vh;
   display: grid;
@@ -22,109 +26,205 @@ main {
     "area1 area3 area4 area6 area7 area9 area10"
     "area04 area3 area05 area6 area06 area9 area10";
 }
+
 .casilla0 {
   grid-area: area0;
 }
+
 .casilla02 {
   grid-area: area02;
 }
+
 .casilla03 {
   grid-area: area03;
 }
+
 .casilla04 {
   grid-area: area04;
 }
+
 .casilla05 {
   grid-area: area05;
 }
+
 .casilla06 {
   grid-area: area06;
 }
-span {
-  transform: rotate(90deg);
-  display: block;
-  font-size: 60px;
-  font-family: Cabin sketch;
-}
+
 .casilla1 {
   grid-area: area1;
   background-color: rgba(255, 103, 17, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla1.acordeon {
+  background-image: url(./instrumentosImg/ACORDEON.jpg);
+  background-size: cover;
+}
+
 .casilla2 {
   grid-area: area2;
   background-color: rgba(37, 34, 191, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla2.arpa {
+  background-image: url(./instrumentosImg/Arpa\ .jpg);
+  background-size: cover;
+}
+
 .casilla3 {
   grid-area: area3;
   background-color: rgba(237, 132, 214, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla3.bateria {
+  background-image: url(./instrumentosImg/batería-estandard.png);
+  background-size: cover;
+}
+
 .casilla4 {
   grid-area: area4;
   background-color: rgba(73, 200, 28, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla4.gaita {
+  background-image: url(./instrumentosImg/gaita.jpeg);
+  background-size: cover;
+}
+
 .casilla5 {
   grid-area: area5;
   background-color: rgba(248, 211, 16, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla5.pandereta {
+  background-image: url(./instrumentosImg/pandereta_sencilla.jpg);
+  background-size: cover;
+}
+
 .casilla6 {
   grid-area: area6;
   background-color: rgba(155, 11, 168, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla6.piano {
+  background-image: url(./instrumentosImg/piano-de-cola-.jpg);
+  background-size: cover;
+}
+
 .casilla7 {
   grid-area: area7;
   background-color: rgba(255, 10, 10, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla7.timbales {
+  background-image: url(./instrumentosImg/timbales.jpg);
+  background-size: cover;
+}
+
 .casilla8 {
   grid-area: area8;
   background-color: rgba(188, 133, 26, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla8.triangulo {
+  background-image: url(./instrumentosImg/triangulo.jpg);
+  background-size: cover;
+}
+
 .casilla9 {
   grid-area: area9;
   background-color: rgba(18, 220, 248, 0.6);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.casilla9.trompeta {
+  background-image: url(./instrumentosImg/trompeta.jpg);
+  background-size: cover;
+}
+
 .casilla10 {
   grid-area: area10;
   background-color: rgba(248, 11, 153, 0.6);
   border-radius: 0 10rem 10rem 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-body {
-  background-image: url(./img/asfalto.jpg);
-  position: relative;
+
+.casilla10.flauta {
+  background-image: url(./instrumentosImg/flauta-travesera.jpg);
+  background-size: cover;
 }
+
+span {
+  transform: rotate(90deg);
+  font-size: 60px;
+  font-family: Cabin sketch;
+}
+
+option {
+  display: none;
+  font-family: Cabin Sketch;
+  font-size: 25px;
+}
+
 img {
   width: 200px;
   right: 0;
   position: fixed;
   bottom: 0;
 }
+
 p {
   font-size: 50px;
   font-family: Cabin sketch;
   text-align: center;
 }
-option {
-  display: none;
-  font-family: Cabin Sketch;
-  font-size: 25px;
-}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 70px;
   }
 
   main {
-    grid-template-rows: repeat(7, 120px);
-    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(7, 15vw);
+    grid-template-columns: repeat(4, 20vw);
     grid-template-areas:
       "area10 area10 area10 area10"
       "area8 area8 area9 area9"
@@ -133,12 +233,14 @@ option {
       "area02 area4 area4 area05"
       "area2 area2 area3 area3"
       "area0 area1 area1 area04 ";
-    margin-left: 75px;
+    margin-left: 8vw;
     margin-top: 5vh;
   }
+
   .casilla10 {
     border-radius: 10rem 10rem 0 0;
   }
+
   span {
     transform: rotate(0deg);
   }
