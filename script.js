@@ -4,6 +4,7 @@ function manejarClick(
   opcion1,
   opcion2,
   opcion3,
+  key,
   audio1,
   audio2
 ) {
@@ -20,10 +21,12 @@ function manejarClick(
       opcion1.style.display = "none";
       opcion2.style.display = "none";
       opcion3.style.display = "none";
+      key.style.display = "none";
     } else {
       opcion1.style.display = "block";
       opcion2.style.display = "block";
       opcion3.style.display = "block";
+      key.style.display = "block";
     }
 
     opcion1.onclick = function () {
@@ -45,6 +48,7 @@ const numero1 = document.querySelector(".numero1");
 const optionAcordeon = document.querySelector(".acordeon");
 const optionAcordeon2 = document.querySelector(".acordeon2");
 const infoAcordeon = document.querySelector(".infoAcordeon");
+const keyAcordeon = document.querySelector(".keyAcordeon");
 const audioAcordeon = document.getElementById("ACORDEON");
 const audioAcordeon2 = document.getElementById("ACORDEON2");
 manejarClick(
@@ -53,6 +57,7 @@ manejarClick(
   optionAcordeon,
   optionAcordeon2,
   infoAcordeon,
+  keyAcordeon,
   audioAcordeon,
   audioAcordeon2
 );
@@ -66,6 +71,7 @@ const numero2 = document.querySelector(".numero2");
 const optionArpa = document.querySelector(".arpa");
 const optionArpa2 = document.querySelector(".arpa2");
 const infoArpa = document.querySelector(".infoArpa");
+const keyArpa = document.querySelector(".keyArpa");
 const audioArpa = document.getElementById("ARPA");
 const audioArpa2 = document.getElementById("ARPA2");
 manejarClick(
@@ -74,6 +80,7 @@ manejarClick(
   optionArpa,
   optionArpa2,
   infoArpa,
+  keyArpa,
   audioArpa,
   audioArpa2
 );
@@ -87,6 +94,7 @@ const numero3 = document.querySelector(".numero3");
 const optionBateria = document.querySelector(".bateria");
 const optionBateria2 = document.querySelector(".bateria2");
 const infoBateria = document.querySelector(".infoBateria");
+const keyBateria = document.querySelector(".keyBateria");
 const audioBateria = document.getElementById("BATERIA");
 const audioBateria2 = document.getElementById("BATERIA2");
 manejarClick(
@@ -95,6 +103,7 @@ manejarClick(
   optionBateria,
   optionBateria2,
   infoBateria,
+  keyBateria,
   audioBateria,
   audioBateria2
 );
@@ -108,6 +117,7 @@ const numero4 = document.querySelector(".numero4");
 const optionGaita = document.querySelector(".gaita");
 const optionGaita2 = document.querySelector(".gaita-asturiana");
 const infoGaita = document.querySelector(".infoGaita");
+const keyGaita = document.querySelector(".keyGaita");
 const audioGaita = document.getElementById("GAITA");
 const audioGaita2 = document.getElementById("GAITA2");
 manejarClick(
@@ -116,6 +126,7 @@ manejarClick(
   optionGaita,
   optionGaita2,
   infoGaita,
+  keyGaita,
   audioGaita,
   audioGaita2
 );
@@ -129,6 +140,7 @@ const numero5 = document.querySelector(".numero5");
 const optionPandereta = document.querySelector(".pandereta");
 const optionPandereta2 = document.querySelector(".pandereta2");
 const infoPandereta = document.querySelector(".infoPandereta");
+const keyPandereta = document.querySelector(".keyPandereta");
 const audioPandereta = document.getElementById("PANDERETA");
 const audioPandereta2 = document.getElementById("PANDERETA2");
 manejarClick(
@@ -137,6 +149,7 @@ manejarClick(
   optionPandereta,
   optionPandereta2,
   infoPandereta,
+  keyPandereta,
   audioPandereta,
   audioPandereta2
 );
@@ -150,6 +163,7 @@ const numero6 = document.querySelector(".numero6");
 const optionPiano = document.querySelector(".piano");
 const optionPiano2 = document.querySelector(".piano2");
 const infoPiano = document.querySelector(".infoPiano");
+const keyPiano = document.querySelector(".keyPiano");
 const audioPiano = document.getElementById("PIANO");
 const audioPiano2 = document.getElementById("PIANO2");
 manejarClick(
@@ -158,6 +172,7 @@ manejarClick(
   optionPiano,
   optionPiano2,
   infoPiano,
+  keyPiano,
   audioPiano,
   audioPiano2
 );
@@ -171,6 +186,7 @@ const numero7 = document.querySelector(".numero7");
 const optionTimbales = document.querySelector(".timbales");
 const optionTimbales2 = document.querySelector(".timbales2");
 const infoTimbales = document.querySelector(".infoTimbales");
+const keyTimbales = document.querySelector(".keyTimbales");
 const audioTimbales = document.getElementById("TIMBALES");
 const audioTimbales2 = document.getElementById("TIMBALES2");
 manejarClick(
@@ -179,6 +195,7 @@ manejarClick(
   optionTimbales,
   optionTimbales2,
   infoTimbales,
+  keyTimbales,
   audioTimbales,
   audioTimbales2
 );
@@ -192,6 +209,7 @@ const numero8 = document.querySelector(".numero8");
 const optionTriangulo = document.querySelector(".triangulo");
 const optionTriangulo2 = document.querySelector(".triangulo2");
 const infoTriangulo = document.querySelector(".infoTriangulo");
+const keyTriangulo = document.querySelector(".keyTriangulo");
 const audioTriangulo = document.getElementById("TRIANGULO");
 const audioTriangulo2 = document.getElementById("TRIANGULO2");
 manejarClick(
@@ -200,6 +218,7 @@ manejarClick(
   optionTriangulo,
   optionTriangulo2,
   infoTriangulo,
+  keyTriangulo,
   audioTriangulo,
   audioTriangulo2
 );
@@ -213,6 +232,7 @@ const numero9 = document.querySelector(".numero9");
 const optiontrompeta = document.querySelector(".trompeta");
 const optionTrompeta2 = document.querySelector(".trompeta2");
 const infoTrompeta = document.querySelector(".infoTrompeta");
+const keyTrompeta = document.querySelector(".keyTrompeta");
 const audioTrompeta = document.getElementById("TROMPETA");
 const audioTrompeta2 = document.getElementById("TROMPETA2");
 manejarClick(
@@ -221,6 +241,7 @@ manejarClick(
   optiontrompeta,
   optionTrompeta2,
   infoTrompeta,
+  keyTrompeta,
   audioTrompeta,
   audioTrompeta2
 );
@@ -234,6 +255,7 @@ const numero10 = document.querySelector(".numero10");
 const optionFlauta = document.querySelector(".flauta");
 const optionFlauta2 = document.querySelector(".flauta2");
 const infoFlauta = document.querySelector(".infoFlauta");
+const keyFlauta = document.querySelector(".keyFlauta");
 const audioFlautaTravesera = document.getElementById("FLAUTA");
 const audioFlauta2 = document.getElementById("FLAUTA2");
 manejarClick(
@@ -242,6 +264,7 @@ manejarClick(
   optionFlauta,
   optionFlauta2,
   infoFlauta,
+  keyFlauta,
   audioFlautaTravesera,
   audioFlauta2
 );

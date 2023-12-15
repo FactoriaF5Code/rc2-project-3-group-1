@@ -56,8 +56,9 @@ main {
   background-color: rgba(255, 103, 17, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla1.acordeon {
@@ -70,8 +71,9 @@ main {
   background-color: rgba(37, 34, 191, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla2.arpa {
@@ -84,8 +86,9 @@ main {
   background-color: rgba(237, 132, 214, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla3.bateria {
@@ -98,8 +101,9 @@ main {
   background-color: rgba(73, 200, 28, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla4.gaita {
@@ -112,8 +116,9 @@ main {
   background-color: rgba(248, 211, 16, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla5.pandereta {
@@ -126,8 +131,9 @@ main {
   background-color: rgba(155, 11, 168, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla6.piano {
@@ -140,8 +146,9 @@ main {
   background-color: rgba(255, 10, 10, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla7.timbales {
@@ -154,8 +161,9 @@ main {
   background-color: rgba(188, 133, 26, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla8.triangulo {
@@ -168,8 +176,9 @@ main {
   background-color: rgba(18, 220, 248, 0.6);
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla9.trompeta {
@@ -183,8 +192,9 @@ main {
   border-radius: 0 10rem 10rem 0;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .casilla10.flauta {
@@ -202,6 +212,19 @@ option {
   display: none;
   font-family: Cabin Sketch;
   font-size: 25px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  display: none;
+  font-size: larger;
+  background-color: #f8027dab;
+  width: 40%;
 }
 
 img {
